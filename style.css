@@ -55,6 +55,8 @@ nav a{
     text-align: center;
     max-width: 650px;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero button{
@@ -82,4 +84,46 @@ nav a{
     background-color: #141414;
     padding: 80px 40px;
     text-align: center;
+}
+
+.featured h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #f2f0eb;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featured p{
+    color: #a6a39d;
+    font-size: 17px;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+    text-align: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.Categories{
+    background-color: #0b0b0b;
+    padding: 80px 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.Categories h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #f2f0eb;
+    text-align: center;
+    margin-bottom: 40px;
 }
