@@ -126,6 +126,7 @@ nav a{
     color: #f2f0eb;
     text-align: center;
     margin-bottom: 40px;
+    flex-basis: 100%;
 }
 
 .category{
@@ -134,4 +135,28 @@ nav a{
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+}
+
+.category img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+}
+
+.category h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: #f2f0eb;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.category p{
+    color: #a6a39d;
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
 }
